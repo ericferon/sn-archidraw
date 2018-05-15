@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_99096_archidraw_graphs">x_99096_archidraw_graphs</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>GRA</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-15 11:57:05</sys_created_on>
+        <sys_id>5162fcdedb0213007a285385ca961957</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GRA</sys_name>
+        <sys_package display_value="Archidraw" source="x_99096_archidraw">167eec96db0213007a285385ca961948</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Archidraw">167eec96db0213007a285385ca961948</sys_scope>
+        <sys_update_name>sys_number_5162fcdedb0213007a285385ca961957</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-15 11:57:05</sys_updated_on>
+    </sys_number>
+</record_update>

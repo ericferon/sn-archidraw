@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="graphs" max_length="40" name="x_99096_archidraw_graphs" type="collection">
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="Graph" max_length="40" name="graph" type="string"/>
+        <element label="Name" mandatory="true" max_length="255" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" mandatory="true" max_length="40" name="number" type="string"/>
+        <element choice="1" display="true" label="Type" mandatory="true" max_length="40" name="type" type="choice">
+            <choice>
+                <element label="Domain map" sequence="0" value="domain map"/>
+                <element label="Project Map" sequence="1" value="project map"/>
+                <element label="Details Map" sequence="2" value="details map"/>
+                <element label="Topology Map" sequence="3" value="topology map"/>
+            </choice>
+        </element>
+    </element>
+</database>
